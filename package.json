@@ -1,0 +1,19 @@
+{
+  "name": "nl-deklerklegal",
+  "version": "1.0.0",
+  "description": "Static website for Corinne De Klerk.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "http-server ./public/ -p 8066",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/nl-deklerklegal"
+  },
+  "keywords": [
+    "legal"
+  ],
+  "author": "Thomas Amar <hello@ebabel.eu>",
+  "license": "ISC"
+}
