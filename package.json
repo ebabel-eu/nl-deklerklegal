@@ -6,6 +6,7 @@
   "scripts": {
     "start": "http-server ./public/ -p 8066",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "yarn prettier --write ./public/",
     "deploy": "aws s3 sync ./public s3://deklerklegal.nl --exclude \"*.DS_Store\" --acl public-read --cache-control \"max-age=31536000\" --size-only"
   },
   "repository": {
@@ -16,5 +17,8 @@
     "legal"
   ],
   "author": "Thomas Amar <hello@ebabel.eu>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
